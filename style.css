@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgb(204, 234, 228),
+    rgba(220, 215, 220, 0.877),rgb(202, 236, 236));
+   
+
+}
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: linear-gradient(to right,rgb(178, 174, 174),
+    rgba(169, 170, 160, 0.877),rgb(147, 143, 148));
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 1px solid rgb(22, 71, 91);
+    
+  }
+  label{
+    font-size: 1.5rem;
+    color: rgb(0, 71, 201);
+  }
+  
+  input {
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 8px;
+    margin-top: 10px;
+  }
+h1{
+    color: rgb(9, 5, 145);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    line-height: 3.8rem;
+}
+#result{
+    color: rgb(6, 5, 87);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-top: 2rem;
+   padding: 0 6rem;
+   letter-spacing: normal;
+  
+}
+button{
+    cursor: pointer;
+    border: navy;
+    border-radius: 0.5rem;
+    background-color: rgb(149, 117, 2);
+    color: aliceblue;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+
+
+@media(max-width:650px){
+    .container{
+    width:60% ;
+    }
+    
+    }
+
+    @media(max-width:500px)
+    {
+        .container{
+        width:70% ;
+        }
+        h1{
+            font-size: 2.5rem;
+        }
+        
+        }
+
+        @media(max-width:430px){
+            .container{
+            width:80% ;
+            }
+            input{
+                width:70% ;
+            }
+            h1{
+                font-size: 1.5rem;
+            }
+        }
